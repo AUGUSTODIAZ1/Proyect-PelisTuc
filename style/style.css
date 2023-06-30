@@ -63,3 +63,8 @@ footer {
     font-weight: bolder;
     color: rgb(245, 245, 255);
 }
+
+.imgCarrousel {
+    width: 670px;
+    height: 750px;
+}
