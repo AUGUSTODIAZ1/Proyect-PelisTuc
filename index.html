@@ -40,126 +40,51 @@
           </nav>
     </header>
     <main>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" />
-<link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous" />
-<title>Owl Carousel</title>
-<link rel="stylesheet" href="./styles/styles.css">
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-    * {
-        font-family: 'Poppins', sans-serif;
-    }
-
-    img {
-        height: 22rem;
-    }
-
-    body {
-        background: hsl(0, 0, 94%);
-    }
-</style>
-</head>
-<body>
-<div class="container-fluid my-5">
-    <h1 class="fw-bold display-1 mb-5"> <span class="text-info">Top</span>  <span class="text-light">10 Pelis</span></h1>
-    <div class="row">
-        <div class="col-12 m-auto">
-            <div class="owl-carousel owl-theme">
-                <div class="item mb-4">
-                    <div class="card border-0 shadow">
-                        <img src="./img/American Carnage.jpg" class="img1" alt="american" class="card-img-top">
-                        <div>
-                            <div>                    
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-sm-12">
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/Conheads.jpg" class="d-block w-100 imgCarrousel" alt="...">
                 </div>
-                <div class="item">
-                    <div class="card border-0 shadow">            
-                        <img src="./img/Black is king.jpg" class="img1" alt="image" class="card-img-top">
-                        <div>
-                            <div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="carousel-item">
+                  <img src="./img/Black is king.jpg" class="d-block w-100 imgCarrousel" alt="...">
                 </div>
-                <div class="item">
-                    <div class="card border-0 shadow">
-                        <img src="./img/Conheads.jpg" class="img1" alt="cong" class="card-img-top">
-                        <div>
-                            <div >
-                            </div>
-                        </div>
-                    </div>
+                <div class="carousel-item">
+                  <img src="./img/American Carnage.jpg" class="d-block w-100 imgCarrousel" alt="...">
                 </div>
-                <div class="item">
-                    <div class="card border-0 shadow">
-                        <img src="./img/Love Again.jpg" class="img1" alt="love" class="card-img-top">
-                        <div>
-                            <div>                                
-                            </div>
-                        </div>
-                    </div>
+                <div class="carousel-item">
+                  <img src="./img/El Pueblo.jpg" class="d-block w-100 imgCarrousel" alt="...">
                 </div>
-                <div class="item">
-                    <div class="card border-0 shadow">
-                        <img src="./img/El Pueblo.jpg" class="img1" alt="pueblo" class="card-img-top">
-                        <div class="">
-                            <div class="">                                  
-                            </div>
-                        </div>
-                    </div>
+                <div class="carousel-item">
+                  <img src="./img/Infinitypool.jpg" class="d-block w-100 imgCarrousel" alt="...">
                 </div>
-                <div class="item">
-                        <img src="./img/Infinitypool.jpg" class="img1" alt="infpool" class="card-img-top">
-                        <div>
-                            <div> 
-                            </div>
-                        </div>
-                    </div>
+                <div class="carousel-item">
+                  <img src="./img/Jhon wick 4.jpg" class="d-block w-100 imgCarrousel" alt="...">
                 </div>
+                <div class="carousel-item">
+                  <img src="./img/Love Again.jpg" class="d-block w-100 imgCarrousel" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/The stroll.jpg" class="d-block w-100 imgCarrousel" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/The crucifixion.jpg" class="d-block w-100 imgCarrousel" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous"></script>
-<script>
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 15,
-        nav: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 4
-            }
-        }
-    })
-</script>
+      </div>
 <div class="pt-3">
     <button type="button" class="btn text-light"  aria-expanded="false"><a class="aa" href="./error404.html">Novedades</a>
      </button>
